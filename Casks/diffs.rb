@@ -1,24 +1,24 @@
 cask "diffs" do
-  version "0.5.0"
+  version "0.5.1"
 
   on_macos do
     on_arm do
-      sha256 "778826f4aedf0fb4c2f535fa9a0ba83f0ef881cfb1b09dbc20004fda3782c4d0"
+      sha256 "a95dc54d98060ff4b6f2a499a7d3dc7d5664a7700f5451df4e707382bf2c13be"
       url "https://github.com/imfing/diffs-cli/releases/download/v#{version}/diffs-aarch64-apple-darwin.tar.gz"
     end
     on_intel do
-      sha256 "2c451a8283f1d75bc08beb0e512a3de3310fb3aa42d4d0db52777972e2e1b6fb"
+      sha256 "008b3e8329866b28c41b38a17d83967d9f369aa2bd0ff6eef32a8498cac005c1"
       url "https://github.com/imfing/diffs-cli/releases/download/v#{version}/diffs-x86_64-apple-darwin.tar.gz"
     end
   end
 
   on_linux do
     on_arm do
-      sha256 "39852c036b907d7f7f55fb3987399bc9b61b6529c988298c2923c7fbf473dd91"
+      sha256 "32ca097d99654e1467e6e117fbb485d09d388c9782f8b63b81fbf7558f55bec3"
       url "https://github.com/imfing/diffs-cli/releases/download/v#{version}/diffs-aarch64-unknown-linux-gnu.tar.gz"
     end
     on_intel do
-      sha256 "cf017a73f15e66f1796cca03ce7ee892ee0e76665cb9a24fd5a7b9a1f50edbda"
+      sha256 "ba87e20cf090724d42dec4b33cae643fe758eb06929d5de58a52542988bc3d57"
       url "https://github.com/imfing/diffs-cli/releases/download/v#{version}/diffs-x86_64-unknown-linux-gnu.tar.gz"
     end
   end
