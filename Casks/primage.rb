@@ -1,24 +1,24 @@
 cask "primage" do
-  version "0.2.0"
+  version "0.2.1"
 
   on_macos do
     on_arm do
-      sha256 "57629ba0d3bc1ef30a1d1641e146065ae54c4ccee9a22ad41bbe1fb4e5c40b82"
+      sha256 "7759033ee4168817d5c0f282b8c93e220b9129a667860de8d8865a653d849ad5"
       url "https://github.com/imfing/primage/releases/download/v#{version}/primage-aarch64-apple-darwin.tar.gz"
     end
     on_intel do
-      sha256 "2da9779fca0aed44708629112bd9937d001dd149e2dda94a8e38a8625aa9b5ba"
+      sha256 "5b793dd79181761d2b9ffb5c3ff1d52399827ba7f91c6439b247a81ff2860443"
       url "https://github.com/imfing/primage/releases/download/v#{version}/primage-x86_64-apple-darwin.tar.gz"
     end
   end
 
   on_linux do
     on_arm do
-      sha256 "e57753746b044733dd5a7a8af1a32f082eb37c3571d0ebe7c8a3b7e8689f95f8"
+      sha256 "720efe4ac149bf372f7cfb9fc625b85320b088891d5ebad7744da42fd932b7a0"
       url "https://github.com/imfing/primage/releases/download/v#{version}/primage-aarch64-unknown-linux-gnu.tar.gz"
     end
     on_intel do
-      sha256 "c65dc2bdd7c5fb5cac3cbb85c21c2c50ec992cb280881682f1ab9f80b6242179"
+      sha256 "988302b5e34834f0774fd126f3f9481c653c9092f299683eeeec1cdd318b330e"
       url "https://github.com/imfing/primage/releases/download/v#{version}/primage-x86_64-unknown-linux-gnu.tar.gz"
     end
   end
